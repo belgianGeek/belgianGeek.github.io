@@ -82,7 +82,10 @@ footer {
 	margin: 2em 0 0;
 }
 
-.strong,
+.strong {
+	font-weight: bold;
+}
+
 b,
 strong {
 	font-weight: 300;
