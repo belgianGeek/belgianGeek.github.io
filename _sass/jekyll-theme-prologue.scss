@@ -488,6 +488,12 @@ button,
 			}
 		}
 	}
+	
+	// Show ::before icons on hover
+	a:hover {
+		-webkit-text-fill-color: unset;
+		color: #beba21;
+	}
 }
 
 #logo {
@@ -542,12 +548,6 @@ button,
 				outline: 0;
 				border: 0;
 				@include vendor('transition', 'none');
-				
-				// Show ::before icons on hover
-				&:hover {
-					-webkit-text-fill-color: unset;
-					color: #beba21;
-				}
 
 				span {
 					position: relative;
