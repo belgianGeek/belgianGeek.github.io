@@ -47,6 +47,12 @@ header {
 			}
 		}
 	}
+	
+	// Show ::before icons on hover
+	a:hover {
+		-webkit-text-fill-color: unset;
+		color: #beba21;
+	}
 }
 
 #headerToggle {
