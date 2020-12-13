@@ -6,11 +6,17 @@
 
 // Code splitting by belgianGeek
 
-@charset "UTF-8";
-@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,600");
+@import 'libs/vars';
+@import 'libs/functions';
+@import 'libs/mixins';
 
-@import 'base/body';
+@charset 'UTF-8';
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,600');
+
+@import 'libs/skel';
+
 @import 'base/includes';
+@import 'base/body';
 
 @import 'components/image';
 
@@ -24,9 +30,3 @@
 @import 'layouts/main';
 @import 'layouts/nav';
 @import 'layouts/table';
-
-@import 'libs/vars';
-@import 'libs/functions';
-@import 'libs/mixins';
-
-@import "libs/skel";
