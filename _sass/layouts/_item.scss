@@ -14,4 +14,8 @@
 			font-size: 1em;
 		}
 	}
+
+	&:hover {
+		@include box-shadow;
+	}
 }

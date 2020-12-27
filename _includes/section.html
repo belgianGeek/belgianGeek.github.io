@@ -13,7 +13,11 @@
 
 {%- if include.photo and include.photo-alt -%}
 	{%- capture _photo -%}
-		<img src="{{- include.photo | relative_url -}}" alt="{{- include.photo-alt -}}" class="back">
+		{%- if include.photo-alt == 'Bannière' -%}
+      <img src="{{- include.photo | relative_url -}}" alt="{{- include.photo-alt -}}" class="back blurBrightness">
+    {%- else -%}
+      <img src="{{- include.photo | relative_url -}}" alt="{{- include.photo-alt -}}" class="back">
+    {%- endif -%}
 	{%- endcapture -%}
 	{%- assign _class = 'shade-one cover dark' -%}
 {%- else -%}
