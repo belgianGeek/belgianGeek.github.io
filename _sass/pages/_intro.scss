@@ -1,0 +1,10 @@
+#intro {
+  footer a {
+    background-color: rgba(33, 37, 40, 0.7);
+
+    &:hover {
+      background-color: rgb(33, 37, 40);
+      @include box-shadow;
+    }
+  }
+}
