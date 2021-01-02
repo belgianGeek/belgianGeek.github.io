@@ -71,20 +71,13 @@ i {
   font-style: italic;
 }
 
+.link,
 a {
   text-decoration: none;
   color: inherit;
   border-bottom: dotted 1px rgba(128, 128, 128, 0.5);
   @include vendor('transition', ('color 0.35s ease-in-out', 'border-bottom-color 0.35s ease-in-out'));
   outline: 0;
-
-  &:hover {
-    color: #beba21;
-		// background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(27,27,29,1) 25%, rgba(190,186,33,1) 50%);
-		// background-clip: text;
-		// -webkit-text-fill-color: transparent;
-		border-bottom-color: rgba(255, 255, 255, 0);
-  }
 }
 
 sub {
@@ -162,10 +155,10 @@ article,
 section {
   margin-bottom: 3em;
 
-  > .container,
+  &:last-child,
    > .container > :last-child,
    > :last-child,
-  &:last-child {
+  > .container {
     margin-bottom: 0;
   }
 

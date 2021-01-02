@@ -2,6 +2,49 @@
   filter: blur(3px) brightness(0.60);
 }
 
+.column {
+  flex-direction: column;
+}
+
 .flex {
   display: flex;
+}
+
+.justifyCentered {
+  justify-content: center;
+}
+
+.link:hover {
+  color: #beba21;
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(27,27,29,1) 25%, rgba(190,186,33,1) 50%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  border-bottom-color: rgba(255, 255, 255, 0);
+}
+
+#main > .shade-two.noPadding {
+  padding: 0;
+}
+
+.postContainer {
+  z-index: 2;
+  margin-top: -10em;
+  padding: 2em;
+  background: $white-bg;
+  width: 85%;
+  border-radius: .5em .5em 0 0;
+}
+
+.postCover {
+  z-index: 1;
+  width: 100%;
+  height: 20%;
+}
+
+.relative {
+  position: relative;
+}
+
+.textCentered {
+  text-align: center;
 }

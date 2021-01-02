@@ -6,11 +6,14 @@ layout: default
 <!-- Main -->
 <div id="main">
 	<!-- Post -->
-	<article class="shade-two">
-	  <div class="container">
+	<article class="shade-two noPadding flex column justifyCentered">
+		{% if page.cover-photo & page.cover-photo-alt %}
+			<img class="postCover relative" src="{{ page.cover-photo | relative_url }}" alt="{{ page.cover-photo-alt }}">
+		{% endif %}
+	  <div class="container postContainer relative">
 			<header>
-				<h2>{{- page.title -}}</h2>
-				<p>{% if page.author %}{{ page.author }}, {% endif %}{{- page.date | date_to_long_string -}}</p>
+				<h2 class="textCentered">{{- page.title -}}</h2>
+				<p class="textCentered">{% if page.author %}{{ page.author }}, {% endif %}{{- page.date | date_to_long_string -}}</p>
 			</header>
 	    {{- content -}}
 	  </div>

@@ -10,6 +10,7 @@
 @import 'libs/functions';
 @import 'libs/mixins';
 
+@import 'utils/vars';
 @import 'utils/mixins';
 
 @charset 'UTF-8';
@@ -34,4 +35,5 @@
 @import 'layouts/nav';
 @import 'layouts/table';
 
+@import 'pages/about';
 @import 'pages/intro';
