@@ -1,0 +1,10 @@
+#à-propos-de-moi {
+  article {
+    .image {
+      @media screen and (max-width: 960px) {
+        width: 70%;
+        margin: 0.5em 15%;
+      }
+    }
+  }
+}

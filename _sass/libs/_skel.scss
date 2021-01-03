@@ -229,7 +229,7 @@
 		// Main class.
 			.container {
 				@if $lock {
-					width: $width !important;
+					width: $width;
 				}
 				@else {
 					width: $width;
