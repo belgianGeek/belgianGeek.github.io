@@ -4,10 +4,10 @@
 /* Wide */
 @include breakpoint(wide) {
 	/* Basic */
-	body,
-	input,
-	select,
-	textarea {
+	.body,
+	.input,
+	.select,
+	.textarea {
 		font-size: 17pt;
 	}
 	/* Header */
@@ -50,10 +50,10 @@
 /* Narrow */
 @include breakpoint(narrow) {
 	/* Basic */
-	body,
-	input,
-	select,
-	textarea {
+	.body,
+	.input,
+	.select,
+	.textarea {
 		font-size: 16pt;
 	}
 
@@ -121,15 +121,15 @@
 /* Narrower */
 @include breakpoint(narrower) {
 	/* Basic */
-	body,
+	.body,
 	html {
 		overflow-x: hidden;
 	}
 
-	body,
-	input,
-	select,
-	textarea {
+	.body,
+	.input,
+	.select,
+	.textarea {
 		font-size: 16pt;
 	}
 
@@ -251,7 +251,7 @@
 		}
 	}
 
-	body {
+	.body {
 		&.header-visible {
 			#main {
 				@include vendor('transform', 'translateX(#{_size(header)})');
@@ -292,10 +292,10 @@
 /* Mobile */
 @include breakpoint(mobile) {
 	/* Basic */
-	body,
-	input,
-	select,
-	textarea {
+	.body,
+	.input,
+	.select,
+	.textarea {
 		font-size: 14pt;
 	}
 

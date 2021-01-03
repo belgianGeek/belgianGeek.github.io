@@ -10,7 +10,7 @@ layout: default
 		{% if page.cover-photo & page.cover-photo-alt %}
 			<img class="postCover relative" src="{{ page.cover-photo | relative_url }}" alt="{{ page.cover-photo-alt }}">
 		{% endif %}
-	  <div class="container postContainer relative">
+	  <div class="container postContainer relative textJustified">
 			<header>
 				<h2 class="h2 textCentered">{{- page.title -}}</h2>
 				<p class="textCentered">{% if page.author %}{{ page.author }}, {% endif %}{{- page.date | date_to_long_string -}}</p>
