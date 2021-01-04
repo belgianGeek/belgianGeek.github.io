@@ -7,8 +7,8 @@ layout: default
 <div id="main" class="main">
 	<!-- Post -->
 	<article class="shade-two noPadding flex column justifyCentered">
-		{% if page.cover-photo and page.cover-photo-alt %}
-			<img class="postCover relative" src="{{ page.cover-photo | relative_url }}" alt="{{ page.cover-photo-alt }}">
+		{% if page.cover-photo %}
+			<div class="postCover relative" style="background-image: url({{ page.cover-photo | relative_url }});"></div>
 		{% endif %}
 	  <div class="container postContainer relative textJustified">
 			<header>

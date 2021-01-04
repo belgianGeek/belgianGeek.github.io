@@ -35,7 +35,7 @@ subtitle: La culture au Max
 description: >- # this means to ignore newlines until "baseurl:"
   Bienvenue sur le blog et portflio de Maxime Vanderwegen (aka belgianGeek)
 author: Maxime Vanderwegen
-email: maximevanderwegen@disroot.org
+email: max@maxvdw.ovh
 avatar: assets/images/avatar.png
 
 # You'll want to customize url and baseurl for your own site:
@@ -50,3 +50,5 @@ github_url: https://github.com/belgianGeek
 # The following settings are NECESSARY for the Prologue theme to run:
 remote_theme: chrisbobbe/jekyll-theme-prologue
 collections: [sections]
+
+permalink: /:title/
