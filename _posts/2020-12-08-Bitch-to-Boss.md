@@ -3,7 +3,6 @@ title: Bitch to Boss, l'extension Firefox qui vous veut du bien
 author: Maxime Vanderwegen
 layout: post
 cover-photo: assets/images/pic08.jpg
-cover-photo-alt: Bitch to Boss
 ---
 Il y a quelques semaines, lors de l'une de mes expéditions sur le web, j'ai découvert une nouvelle extension pour Firefox, j'ai nommé _B!tch to Boss_. À quoi sert-elle me direz-vous ? Elle permet de rendre le web plus respectueux (oui, ça existe encore 😇) en remplaçant chaque insulte potentielle envers les femmes avec le mot _Boss_ (traduction anglaise de _patron_ ou _caïd_ pour ceux qui ne maîtrisent pas la langue 😉).
 
