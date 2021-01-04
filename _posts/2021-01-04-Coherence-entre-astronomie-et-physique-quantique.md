@@ -5,11 +5,11 @@ layout: post
 cover-photo: assets/images/coherence.jpg
 ---
 
-L'expérience du Chat de Schrödinger, ça vous évoque quelque-chose ? Non ? Pas grave, vous trouverez plein d'infos sur cette théorie dans [ce super article](http://recherche-technologie.wallonie.be/athena/index.html?IDR=12978) de la revue [Athena](http://recherche-technologie.wallonie.be/home/fr/particulier/menu/revue-athena/index.html). Si vous voulez vous immerger dans cette expérience, je vous invite à regarder _Coherence_.
+L'expérience du Chat de Schrödinger, ça vous évoque quelque-chose ? Non ? Pas grave, vous trouverez plein d'infos sur cette théorie dans [ce super article](http://recherche-technologie.wallonie.be/athena/index.html?IDR=12978){:class="link"} de la revue [Athena](http://recherche-technologie.wallonie.be/home/fr/particulier/menu/revue-athena/index.html){:class="link"}. Si vous voulez vous immerger dans cette expérience, je vous invite à regarder _Coherence_.
 
 Ce film américain, sorti en 2013 démarre de manière assez banale : des amis se retrouvent pour passer la soirée ensemble. Rien de spectaculaire jusqu'ici, qui ne le faisait pas avant que le COVID débarque ? 😭
 
-Le hic, c'est que la soirée se déroule lors du passage de la Comète de Haley. Spoiler alert : elle va provoquer une altération de leur réalité. Eeeeeet je ne vais pas en dire plus sinon je vais vous gâcher toute l'intrigue. 😇
+Le hic, c'est que la soirée se déroule lors du passage de la Comète de Miller. Spoiler alert : elle va provoquer une altération de leur réalité. Eeeeeet je ne vais pas en dire plus sinon je vais vous gâcher toute l'intrigue. 😇
 
 Ce que j'ai beaucoup aimé, c'est qu'il se déroule à huit clos et avec 8 personnages seulement. Pourtant, ce caractère de production à petit budget cache un scénario assez poussé et une mise en scène très bien exécutée. De plus, il est rempli de questionnements sur cette soirée définitvement anormale, à un tel point que les évènements s'enchaînent assez vite, avec une tension narrative soutenue, jusqu'à un plot twist final plus que sympa (c'est le moment où on se dit _Ah ouais quand même !_).
 
