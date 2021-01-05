@@ -5,7 +5,7 @@ layout: post
 cover-photo: assets/images/coherence.jpg
 ---
 
-L'expérience du Chat de Schrödinger, ça vous évoque quelque-chose ? Non ? Pas grave, vous trouverez plein d'infos sur cette théorie dans [ce super article](http://recherche-technologie.wallonie.be/athena/index.html?IDR=12978){:class="link"} de la revue [Athena](http://recherche-technologie.wallonie.be/home/fr/particulier/menu/revue-athena/index.html){:class="link"}. Si vous voulez vous immerger dans cette expérience, je vous invite à regarder _Coherence_.
+L'expérience du Chat de Schrödinger, ça vous évoque quelque-chose ? Non ? Pas grave, vous trouverez plein d'infos sur cette théorie dans [ce super article](http://recherche-technologie.wallonie.be/servlet/Repository?IDR=12978&EXT=PDF){:class="link"} (page  28) de la revue [Athena](http://recherche-technologie.wallonie.be/home/fr/particulier/menu/revue-athena/index.html){:class="link"}. Retenez simplement qu'il s'agit d'une théorie de base en physique quantique, qui postule que plusieurs réalités peuvent coexister simultanément. Sympa, non ? Si vous voulez voir une démo de cette théorie, je vous invite à regarder _Coherence_.
 
 Ce film américain, sorti en 2013 démarre de manière assez banale : des amis se retrouvent pour passer la soirée ensemble. Rien de spectaculaire jusqu'ici, qui ne le faisait pas avant que le COVID débarque ? 😭
 
