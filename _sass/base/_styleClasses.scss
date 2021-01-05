@@ -33,9 +33,6 @@
   background: $white-bg;
   width: 85%;
   border-radius: 0.5em 0.5em 0 0;
-  @media screen and (max-width: 960px) {
-    margin-top: -2em;
-  }
 }
 
 .postCover {
