@@ -3,6 +3,7 @@ title: 'Coherence, entre astronomie et physique quantique'
 author: Maxime Vanderwegen
 layout: post
 image: assets/images/coherence.jpg
+description: L'expérience du Chat de Schrödinger, ça vous évoque quelque-chose ? Non ? Pas grave, vous trouverez plein d'infos sur cette théorie dans ce super article{:class="link"} (page 28) de la revue Athena{:class="link"}. Retenez simplement qu'il s'agit d'une théorie de base en physique quantique, qui postule que plusieurs réalités peuvent coexister simultanément. Sympa, non ? Si vous voulez voir une démo de cette théorie, je vous invite à regarder Coherence.
 ---
 
 L'expérience du Chat de Schrödinger, ça vous évoque quelque-chose ? Non ? Pas grave, vous trouverez plein d'infos sur cette théorie dans [ce super article](http://recherche-technologie.wallonie.be/servlet/Repository?IDR=12978&EXT=PDF){:class="link"} (page  28) de la revue [Athena](http://recherche-technologie.wallonie.be/home/fr/particulier/menu/revue-athena/index.html){:class="link"}. Retenez simplement qu'il s'agit d'une théorie de base en physique quantique, qui postule que plusieurs réalités peuvent coexister simultanément. Sympa, non ? Si vous voulez voir une démo de cette théorie, je vous invite à regarder _Coherence_.
@@ -21,6 +22,6 @@ C'est un film à voir si vous êtes un.e fan de scénarios à tiroirs ou d'intri
 
 En attendant de vous décider, voici la bande-annonce :
 
-[![Bande-annonce de Coherence](https://res.cloudinary.com/marcomontalbano/image/upload/v1609792384/video_to_markdown/images/youtube--kxAOewNzz-8-c05b58ac6eb4c4700831b2b3070cd403.jpg)](https://youtu.be/kxAOewNzz-8 "Bande-annonce de Coherence")
+<iframe width="560" height="315" src="https://www.youtube.com/embed/kxAOewNzz-8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Bon film !
