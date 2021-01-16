@@ -49,9 +49,14 @@ url: "" # the base hostname & protocol for your site
 # Make sure to include the full url including protocol, e.g. https://github.com/chrisbobbe
 linkedin_url: https://www.linkedin.com/in/maxime-vanderwegen/
 github_url: https://github.com/belgianGeek
+feed_url: /feed.xml
 
 # The following settings are NECESSARY for the Prologue theme to run:
 remote_theme: chrisbobbe/jekyll-theme-prologue
 collections: [sections]
 
-permalink: /:title/
+permalink: /blog/:title/
+
+# Plugins
+plugins:
+  - jekyll-feed
