@@ -33,6 +33,11 @@
   background: $white-bg;
   width: 85%;
   border-radius: 0.5em 0.5em 0 0;
+  flex-direction: column;
+
+  & iframe {
+    align-self: center;
+  }
 }
 
 .postCover {
