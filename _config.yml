@@ -36,7 +36,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Bienvenue sur le blog et portfolio de Maxime Vanderwegen (aka belgianGeek)
 author: Maxime Vanderwegen
 email: max@maxvdw.ovh
-avatar: assets/images/avatar.png
+avatar: assets/favicon.png
 
 # set the 'locale' meta tag
 locale: fr_BE
