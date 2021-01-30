@@ -25,23 +25,47 @@
 	{%- assign _heading = "" -%}
 {%- else -%}
 	{%- capture _heading -%}
-		<header>
-			<h2 class="h2">
+		{%- if include.layout == 'post' -%}
+      <header class="postsList__item__container__header">
+        <h2 class="postsList__item__container__header__h2 h2">
+    {%- else -%}
+      <header>
+        <h2 class="h2">
+    {%- endif -%}
         {%- if include.auto-header == null or include.auto-header == 'use-title' -%}
           {{- _title -}}
         {%- else -%}
           {{- include.auto-header -}}
         {%- endif -%}
       </h2>
-      {%- if include.subtitle -%}<p>{{- include.subtitle -}}</p>{%- endif -%}
+      {%- if include.subtitle && include.layout == 'post' -%}
+        <p class="postsList__item__container__header__date">{{- include.subtitle | split: " | " | last -}}</p>
+      {%- else include.subtitle -%}
+        <p class="subtitle">{{- include.subtitle -}}</p>
+      {%- endif -%}
 		</header>
 	{%- endcapture -%}
 {%- endif -%}
 
-<section id="{{- _slug -}}" class="{{- _class -}}">
-  <div class="container">
+{%- if include.layout == 'post' -%}
+  {%- assign _containerClass = 'container postsList__item__container' -%}
+  {%- assign _content = include.content | truncate: 150 -%}
+  <article id="{{- _slug -}}" class="{{- _class | prepend: 'postsList__item ' -}}">
+    {%- if include.photo -%}
+      <img class="postsList__item__img" src="{{- include.photo | relative_url -}}" alt="{{- include.title | strip_html | prepend: 'Illustration du post '-}}">
+    {%- endif -%}
+{%- else -%}
+  {%- assign _containerClass = 'container' -%}
+  {%- assign _content = include.content -%}
+  <section id="{{- _slug -}}" class="{{- _class -}}">
+{%- endif -%}
+    <div class="{{- _containerClass -}}">
     {{- _photo -}}
     {{- _heading -}}
-    {{- include.content -}}
+    {{- _content -}}
   </div>
+{%- if include.layout != 'post' -%}
 </section>
+{%- else -%}
+</article>
+{%- endif -%}
