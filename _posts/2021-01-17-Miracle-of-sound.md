@@ -3,7 +3,7 @@ title: Miracle of Sound, l'artiste inspiré par la pop culture
 author: Maxime Vanderwegen
 layout: post
 image: https://strangera.files.wordpress.com/2012/04/miracle-of-sound.jpg
-description: _Miracle of Sound_ est un artiste irlandais dont les créations s'insporent directement de la pop culture (jeux vidéos, films et séries). Son répertoire, aux sonorités rock, pop voire heavy metal fait partie de ma liste de lecture depuis environ 1 an. J'ai donc décidé de vous faire découvrir ce musicien dans cet article.
+description: <i>Miracle of Sound</i> est un artiste irlandais dont les créations s'inspirent directement de la pop culture (jeux vidéos, films et séries). Son répertoire, aux sonorités rock, pop voire heavy metal fait partie de ma liste de lecture depuis environ 1 an. J'ai donc décidé de vous faire découvrir ce musicien dans cet article.
 ---
 
 Vous êtes fan de rock et de jeux vidéos ? Alors vous connaissez peut-être le musicien irlandais _Miracle of Sound_. Ce nom vous est inconnu ? Pas de soucis, vous saurez tout d'ici la fin de cet article !
@@ -14,7 +14,7 @@ Une chose que j'admire dans son travail c'est qu'il ne se limite pas un genre pr
 
 Pour son travail de composition, il est souvent aidé par des studios tels qu'Ubisoft pour des licences comme _Assassin's Creed_ ou _Watch Dogs_, pour lesquelles il a composé plusiuers morceaux. Le résultat est plutôt sympa si vous aimez l'univers, comme en témoigne _Valhalla Calling_, morceau sorti pour accompagner le dernier _Assassin's Creed_ :
 
-<iframe width="560" height="315" src="https://invidious.kavin.rocks/embed/jxptIpCYAJA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://invidious.kavin.rocks/embed/jxptIpCYAJA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen defer></iframe>
 
 Et si les jeux vidéos, ça n'est pas votre truc, vous serez heureux d'apprendre que son répertoire compte également des chansons ayant pour thème _Game of Thrones_ ou encore une excellente reprise du titre de _Dire Straits_ _Money for Nothing_ (ici renommé _I want my RPG_, morceau critiquant les microtransactions et les free-to-play), à découvrir [ici](https://www.youtube.com/watch?v=p-WlEgn_pig){:class="link"}.
 
