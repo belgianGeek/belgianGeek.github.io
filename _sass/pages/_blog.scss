@@ -22,7 +22,8 @@
   }
 
   .postsList__item {
-    width: 100%;
+    min-width: 25%;
+    max-width: 28%;
     padding: 1em;
     margin: 1.5em;
     border: 1px solid black;
@@ -47,7 +48,8 @@
       filter: blur(2px) brightness(0.5);
     }
     @media screen and (max-width: 960px) {
-      width: 60%;
+      width: 85%;
+      max-width: 85%;
       align-self: center;
     }
 
@@ -58,17 +60,20 @@
       &__header {
         .link {
           color: white;
-          text-decoration: underline;
         }
 
         &__h2 {
           font-size: 1.5em;
         }
 
-        &__date,
+        &__date.p,
         &__h2 {
           text-align: center;
         }
+      }
+
+      p {
+        text-align: justify;
       }
     }
   }

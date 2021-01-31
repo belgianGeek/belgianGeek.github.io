@@ -20,6 +20,16 @@
   background-clip: text;
   -webkit-text-fill-color: transparent;
   border-bottom-color: rgba(255, 255, 255, 0);
+
+  &::after {
+    content: "";
+    position: absolute;
+    bottom: 2px;
+    left: 0;
+    height: 1px;
+    width: 100%;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(27,27,29,1) 25%, $yellow 50%);
+  }
 }
 
 #main > .shade-two.noPadding {
