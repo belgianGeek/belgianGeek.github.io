@@ -2,7 +2,7 @@
 title: 'Coherence, entre astronomie et physique quantique'
 author: Maxime Vanderwegen
 layout: post
-image: /assets/images/coherence.jpg
+image: /assets/images/coherence.webp
 description: L'expérience du Chat de Schrödinger, ça vous évoque quelque-chose ? Non ? Pas grave, vous trouverez plein d'infos sur cette théorie dans ce super article{:class="link"} (page 28) de la revue Athena{:class="link"}. Retenez simplement qu'il s'agit d'une théorie de base en physique quantique, qui postule que plusieurs réalités peuvent coexister simultanément. Sympa, non ? Si vous voulez voir une démo de cette théorie, je vous invite à regarder Coherence.
 ---
 
