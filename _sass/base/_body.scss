@@ -121,17 +121,17 @@ pre {
   }
 }
 
-blockquote {
-  margin-left: 1em;
-  border-left: solid 0.5em #ddd;
-  padding: 1em 0 1em 2em;
-  font-style: italic;
-}
+// blockquote {
+//   margin-left: 1em;
+//   border-left: solid 0.5em #ddd;
+//   padding: 1em 0 1em 2em;
+//   font-style: italic;
+// }
 
 dl,
 ol,
 p,
-table,
+// table,
 ul {
   margin: 1em 0 1em 0;
 }
@@ -162,17 +162,17 @@ section {
     margin-bottom: 0;
   }
 
-  .row > & {
-    margin-bottom: 0;
-  }
-
-  .row {
-    margin-top: 40px;
-  }
-
-  .row > * {
-    padding-top: 0;
-  }
+  // .row > & {
+  //   margin-bottom: 0;
+  // }
+  //
+  // .row {
+  //   margin-top: 40px;
+  // }
+  //
+  // .row > * {
+  //   padding-top: 0;
+  // }
 
   ol,
   ul {
