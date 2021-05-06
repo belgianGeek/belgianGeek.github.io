@@ -13,7 +13,7 @@ layout: default
 	  <div class="container postContainer relative textJustified flex">
 			<header>
 				<h2 class="h2 textCentered">{{- page.title -}}</h2>
-				<p class="textCentered">{% if page.author %}{{ page.author }}, {% endif %}{{- page.date | date_to_long_string -}}</p>
+				<p class="textCentered">{% if page.author %}{{ page.author }}, {% endif %} publié le {{ page.date | date_to_long_string }} {% if page.updateDate %} - mis à jour le {{ page.updateDate | date_to_long_string }}{% endif %}</p>
 			</header>
 	    {{- content -}}
 	  </div>
