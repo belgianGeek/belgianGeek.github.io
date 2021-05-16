@@ -8,14 +8,17 @@ layout: default
 	<!-- Post -->
 	<article class="shade-two noPadding flex column justifyCentered">
 		{% if page.image %}
-			<div class="postCover relative" style="background-image: url({{ page.image | relative_url }});"></div>
+		<div class="postCover relative" style="background-image: url({{ page.image | relative_url }});"></div>
 		{% endif %}
-	  <div class="container postContainer relative textJustified flex">
+		<div class="container postContainer relative textJustified flex">
 			<header>
 				<h2 class="h2 textCentered">{{- page.title -}}</h2>
 				<p class="textCentered">{% if page.author %}{{ page.author }}, {% endif %} publié le {{ page.date | date_to_long_string }} {% if page.updateDate %} - mis à jour le {{ page.updateDate | date_to_long_string }}{% endif %}</p>
 			</header>
-	    {{- content -}}
-	  </div>
+			{{- content -}}
+		</div>
 	</article>
+	<div id="cusdis_thread" data-host="https://cusdis.com" data-app-id="cb11fdba-92fa-4ae1-b770-fd4bc8b8bc6e" data-page-id="{{ page.url }}" data-page-url="{{ page.url }}" data-page-title="{{- page.title -}}"></div>
+	<script async defer src="https://cusdis.com/js/widget/lang/fr.js"></script>
+	<script async defer src="https://cusdis.com/js/cusdis.es.js"></script>
 </div>

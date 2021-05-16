@@ -15,16 +15,7 @@
 }
 
 .link {
-  background-image: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(27,27,29,1) 25%, $yellow 50%);
-  text-decoration: none;
-  background-position: 0 1.15em;
-  background-repeat: repeat-x;
-  background-size: cover;
-
-  &:hover {
-    background-position: 0 0.9em;
-    transition: 300ms background-position;
-  }
+  @include link;
 }
 
 #main > .shade-two.noPadding {
