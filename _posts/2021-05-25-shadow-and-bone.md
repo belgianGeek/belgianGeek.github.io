@@ -1,5 +1,5 @@
 ---
-title: Shadow and Bone ou encore une excellente production signée Netflix
+title: Shadow and Bone : encore une excellente production signée Netflix
 author: Maxime Vanderwegen
 layout: post
 image: https://resizing.flixster.com/ankdjkGX5naVD7s8A7vGQytSFeg=/740x380/v1.bjsyNzIyNzkwO2o7MTg4NDE7MTIwMDsyMDQ4OzExNTI
@@ -58,3 +58,5 @@ Ma seconde et dernière déception concerne les personnages. Cette première sai
 Comme vous vous en doutez, j'ai beaucoup aimé la série et j'attends la suite avec impatience. Comme je vous l'ai dit en introduction, je n'ai pas lu les romans qui ont servi à l'adaptation et je ne peux donc pas donner un avis éclairé sur le scénario. Pour combler cette lacune, il ne me reste qu'à trouver les livres en bibliothèque.
 
 _Shadow and bone_ est disponible sur [Netflix](https://www.netflix.com/be-en/title/80236319){:class="link"}. Si vous êtes faites partie des abonnés au service, vous connaissez désormais le programme de vos huit prochaines soirées !
+
+[Source de la photo de couverture](https://resizing.flixster.com/ankdjkGX5naVD7s8A7vGQytSFeg=/740x380/v1.bjsyNzIyNzkwO2o7MTg4NDE7MTIwMDsyMDQ4OzExNTI){:class="link"}
