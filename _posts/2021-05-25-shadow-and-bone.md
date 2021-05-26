@@ -1,9 +1,10 @@
 ---
-title: Shadow and Bone : encore une excellente production signée Netflix
+title: "Shadow and Bone : encore une excellente production signée Netflix"
 author: Maxime Vanderwegen
 layout: post
 image: https://resizing.flixster.com/ankdjkGX5naVD7s8A7vGQytSFeg=/740x380/v1.bjsyNzIyNzkwO2o7MTg4NDE7MTIwMDsyMDQ4OzExNTI
 description: Si vous êtes un adepte de Netflix, vous connaissez sûrement Shadow and Bone. Si ce nom ne vous dit rien, vous l'ajouterez certainement à votre liste de séries à voir d'ici la fin de cet article garanti sans spoilers.
+updateDate: 26 May 2021
 ---
 
 Si vous êtes un adepte de Netflix, vous connaissez sûrement _Shadow and Bone_. Si ce nom ne vous dit rien, vous l'ajouterez certainement à votre liste de séries à voir d'ici la fin de cet article garanti sans spoilers.
