@@ -22,10 +22,10 @@ Bien que cette lecture ne soit pas gaie, il me semblait important de rebondir su
 
 - [Tencent Patent Could Let People Inherit In-Game Items](https://gamerant.com/tencent-digital-inheritance-patent/){:class="link"}
 
-- [What happens to your Steam account when you die? | Eurogamer.net](https://www.eurogamer.net/articles/2017-10-06-what-happens-to-your-steam-account-when-you-die){:class="link"}
+- [What happens to your Steam account when you die ?](https://www.eurogamer.net/articles/2017-10-06-what-happens-to-your-steam-account-when-you-die){:class="link"}
 
-- [Organisez votre héritage numérique | Mon Argent](https://www.lecho.be/monargent/succession/organisez-votre-heritage-numerique/10175812.html){:class="link"}
+- [Organisez votre héritage numérique](https://www.lecho.be/monargent/succession/organisez-votre-heritage-numerique/10175812.html){:class="link"}
 
 - [Le Saviez-Tu : Il sera bientôt possible de transmettre ses jeux digitaux à sa mort](https://www.melty.fr/le-saviez-tu-il-sera-bientot-possible-de-transmettre-ses-jeux-digitaux-a-sa-mort-a768196.html){:class="link"}
 
-[Source de la photo de couverture](https://unsplash.com/photos/73OJLcahQHg)
+[Source de la photo de couverture](https://unsplash.com/photos/73OJLcahQHg){:class="link"}
