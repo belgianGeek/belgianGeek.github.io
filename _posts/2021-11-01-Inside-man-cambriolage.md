@@ -1,9 +1,9 @@
 ---
-title: The inside man, récit d'un cambriolage pas comme les autres
+title: "The inside man, récit d'un cambriolage pas comme les autres"
 author: Maxime Vanderwegen
 layout: post
-image: 'https://pursuenews.com/wp-content/uploads/2018/10/Inside-Man-poster.jpg'
-description: Pensez-vous qu'un braqueur de banque est toujours méchant ? "The inside man" vous prouvera le contraire !
+image: "https://pursuenews.com/wp-content/uploads/2018/10/Inside-Man-poster.jpg"
+description: "Si vous pensez qu'un braqueur de banque est toujours méchant, \"The inside man\" vous prouvera le contraire !"
 ---
 
 ## Le pitch

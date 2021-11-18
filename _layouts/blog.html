@@ -24,8 +24,7 @@ layout: default
 			{{- _post.date | date_to_long_string -}}
 		{%- endcapture -%}
 		{%- capture _excerpt -%}<p>{{- _post.description | truncatewords: 100 | default: _post.content | truncatewords: 50 -}}</p>{%- endcapture -%}
-		{%- capture _link -%}<a class="link" href="{{- _post.url | relative_url -}}">plus</a>{%- endcapture -%}
-		{%- assign _content = _excerpt | append: _link -%}
+		{%- assign _content = _excerpt -%}
 		{%- include section.html title=_title subtitle=_subtitle content=_content layout=_post.layout photo=_post.image-%}
 	{%- endfor -%}
 	</span>
