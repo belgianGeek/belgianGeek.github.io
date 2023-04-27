@@ -11,6 +11,10 @@
 	article {
 		text-align: left;
 
+		&.textJustified {
+			text-align: justify;
+		  }
+
 		header {
 			p {
 				font-style: italic;
