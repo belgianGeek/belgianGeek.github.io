@@ -26,18 +26,24 @@ _Ansible_ étant surtout destiné aux environnements d'entreprise, ce guide est 
 
 _Cent OS Stream_ est [téléchargeable directement sur le site du projet](https://www.centos.org/centos-stream/){:class=link} et est disponible en plusieurs formats selon votre besoin (container, image Cloud ou ISO).
 
-Une fois _Cent OS_ installé, vous pouvez mettre à jour le système avec la commande `sudo yum update` avant d'installer _Ansible_ avec la commande `sudo yum install ansible -y`.
+Une fois _Cent OS_ installé, vous pouvez mettre à jour le système avec la commande `sudo yum update`.
 
-💡 Il vous est possible d'installer _Ansible_ dans sa version complète, incluant les modules nécessaires à l'automatisation de beaucoup d'équipements (paquet `ansible`), ou alors de n'installer que le moteur _Ansible_ (paquet `ansible-core`) et de sélectionner par vous-même les modules à installer.
+### Ansible VS Ansible-core
 
-Dans ce guide, nous partirons du principe que vous installez la version complète d'_Ansible_.
+Par défaut, vous n'aurez droit qu'à `ansible-core`, un paquet ne contenant que de simples fonctions de base. C'est pratique si vous ne désirez installer que les paquets qui vous sont absolument nécessaires. Vous devrez par contre installer autant de modules que nécessaires pour automatiser vos équipements.
+
+Le paquet `ansible` est la version complète de l'outil, qui inclut quelques modules complémentaires. Si vous désirez installer cette version, il vous est nécessaire d'installer le paquet _Extra Packages for Enterprise Linux_ en entrant l'instruction `sudo yum install epel-release`. Des paquets complémentaires seront alors disponibles pour votre serveur, en ce compris la version complète d'_Ansible_. Vous pourrez l'installer avec la commande `sudo yum install ansible -y`.
+
+Dans ce guide, nous partirons du principe que vous installerez la version complète d'_Ansible_.
+
+### Fichiers de configuration
 
 Différents fichiers de configuration sont disponibles dans le dossier `/etc/ansible`. Parmi eux se trouvent :
 
 - <u>ansible.cfg</u>, qui contient la liste des paramètres liés à l'exécution d'_Ansible_
 - <u>hosts</u>, qui contient la liste des hôtes et groupes d'hôtes configurables
 
-## Création d'un utilisateur spécifique
+### Création d'un utilisateur spécifique
 
 Pour des raisons évidentes de sécurité, il est préférable de n'utiliser _Ansible_ qu'à travers un utilisateur dédié à cet usage et n'ayant aucun droits administrateurs.
 
