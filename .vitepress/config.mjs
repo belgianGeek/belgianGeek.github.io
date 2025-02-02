@@ -43,7 +43,7 @@ export default defineConfig({
       copyright: "Copyright © 2025-present Maxime Deposson",
     },
     lastUpdated: {
-      text: "Dernière mise à jour : ",
+      text: "Dernière mise à jour ",
       formatOptions: {
         dateStyle: "full",
         timeStyle: "medium",
