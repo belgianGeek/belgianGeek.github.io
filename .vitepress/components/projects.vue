@@ -38,7 +38,7 @@ const projects = [{
       <img :src="project.iconPath" :alt="project.iconLegend" />
       <header>
         <h3 class="strong">
-          <a href="project.link" class="customLink">
+          <a :href="project.link" class="customLink">
             {{ project.name }}
           </a>
         </h3>
