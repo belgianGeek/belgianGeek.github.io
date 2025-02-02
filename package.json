@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "vitepress": "^1.5.0",
+    "vue-cusdis": "^2.1.1"
+  },
+  "scripts": {
+    "docs:dev": "vitepress dev",
+    "docs:build": "vitepress build",
+    "docs:preview": "vitepress preview"
+  },
+  "devDependencies": {
+    "gray-matter": "^4.0.3",
+    "sass-embedded": "^1.83.0",
+    "vue": "^3.5.13"
+  }
+}
