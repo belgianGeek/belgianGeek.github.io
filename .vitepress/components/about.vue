@@ -22,6 +22,10 @@
   box-sizing: border-box;
   display: flex;
 
+  @media (max-width: 960px) {
+    flex-direction: column;
+  }
+
   article {
     display: flex;
     justify-content: center;
@@ -34,6 +38,7 @@
   img {
     height: 50%;
     float: left;
+    object-fit: contain;
   }
 }
 </style>

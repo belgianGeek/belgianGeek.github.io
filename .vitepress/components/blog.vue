@@ -30,7 +30,8 @@ import postDate from "./postDate.vue";
             {{ post.date }}
             <postDate :creationDate="post.createdDateTime" />
           </header>
-          <p v-if="post.description[post.description.length -1].match(/[.:;,?.!]/)" class="desc">{{ post.description }}</p>
+          <p v-if="post.description[post.description.length - 1].match(/[.:;,?.!]/)" class="desc">{{ post.description }}
+          </p>
           <p v-else class="desc">{{ post.description }}...</p>
         </div>
       </strong>
@@ -48,6 +49,10 @@ import postDate from "./postDate.vue";
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+
+  @media (max-width: 960px) {
+    flex-direction: column;
+  }
 }
 
 .blogDesc {
@@ -66,6 +71,10 @@ import postDate from "./postDate.vue";
   top: 0;
   left: 0;
   z-index: 1;
+
+  @media (max-width: 960px) {
+    max-width: 90%;
+  }
 
   &__Container {
     width: 100%;
