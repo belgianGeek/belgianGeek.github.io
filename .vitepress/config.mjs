@@ -28,10 +28,45 @@ export default defineConfig({
   title: "belGeek | Culture & tech au max",
   description: "Bienvenue sur le blog et portfolio de Maxime Deposson",
   assetsDir: "assets",
-  head: [
-    ["link", { rel: "icon", href: "/favicon.ico" }],
-    ["meta", { name: "author", content: "Maxime Deposson" }],
-  ],
+  transformHead(pageData) {
+    return [
+      [
+        "meta",
+        {
+          name: "og:title",
+          content: pageData.title,
+        },
+      ],
+      [
+        "meta",
+        {
+          name: "og:site_name",
+          content: "belGeek | Culture & tech au Max",
+        },
+      ],
+      ["meta", { property: "og:type", content: "website" }],
+      [
+        "meta",
+        {
+          property: "og:description",
+          content: pageData.description,
+        },
+      ],
+      [
+        "meta",
+        {
+          property: "og:locale",
+          content: "fr-BE",
+        },
+      ],
+      ["link", { rel: "icon", href: "/favicon.ico" }],
+      ["meta", { name: "author", content: "Maxime Deposson" }],
+      [
+        "meta",
+        { property: "og:url", content: "https://belgiangeek.github.io" },
+      ],
+    ];
+  },
   lastUpdated: true,
   cleanUrls: true,
   sitemap: {
