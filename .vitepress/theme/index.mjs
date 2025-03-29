@@ -1,7 +1,6 @@
 // https://vitepress.dev/guide/custom-theme
 import DefaultTheme from "vitepress/theme";
 import "./style.css";
-import VueCusdis from "vue-cusdis";
 
 // Components
 import Projects from "../components/projects.vue";
@@ -21,6 +20,8 @@ export default {
     app.component("About", About);
     app.component("Blog", Blog);
     app.component("postDate", postDate);
-    app.component("VueCusdis", VueCusdis);
   },
 };
+
+// import { VPLTheme } from '@lando/vitepress-theme-default-plus';
+// export default VPLTheme;
