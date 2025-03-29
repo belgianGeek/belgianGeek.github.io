@@ -1,4 +1,4 @@
-import { defineConfig } from "vitepress";
+import { defineConfig } from 'vitepress';
 import { join } from "node:path";
 import { readdirSync } from "node:fs";
 import matter from "gray-matter";
@@ -65,6 +65,13 @@ export default defineConfig({
         "meta",
         { property: "og:url", content: "https://belgiangeek.github.io" },
       ],
+      [
+        "script",
+        {
+          async: true,
+          src: "/analytics.js"
+        }
+      ]
     ];
   },
   lastUpdated: true,
