@@ -5,6 +5,7 @@ date: 04/01/2021
 layout: doc
 image: ../../images/coherence.webp
 description: L'expérience du Chat de Schrödinger, ça vous évoque quelque-chose ? Non ? Pas grave, je vais vous l'expliquer au travers d'un film. 😃
+tags: Cinéma, Culture
 ---
 
 # Coherence, entre astronomie et physique quantique

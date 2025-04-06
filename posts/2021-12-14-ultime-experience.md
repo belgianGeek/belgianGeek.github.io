@@ -5,6 +5,7 @@ date: 14/12/2021
 layout: doc
 image: https://www.jailu.com/var/flammarion-multisite/storage/images/home-j-ai-lu/actualites/septembre-2021-l-ultime-experience/107914-2-fre-FR/Septembre-2021-L-ultime-experience.jpg
 description: Voici LE livre qui réconciliera les amoureux des sciences et techniques et les amateurs de romans à suspense
+tags: Culture, Littérature
 ---
 
 # L'ultime expérience, un excellent thriller par le créateur d'E-Penser

@@ -1,6 +1,6 @@
 <script setup>
 import DefaultTheme from 'vitepress/theme';
-import { Content, useData } from 'vitepress';
+import { useData } from 'vitepress';
 
 const { Layout } = DefaultTheme;
 const { frontmatter } = useData();
@@ -8,8 +8,13 @@ const { frontmatter } = useData();
 
 <template>
   <Layout>
-    <template #doc-before>
+    <template #doc-before v-if="frontmatter.layout === 'doc'">
       <div role="img" class="postCover" :style="`background-image: url(${frontmatter.image});`"></div>
+    </template>
+    <template #doc-footer-before v-if="frontmatter.layout === 'doc'">
+      <article class="tags">
+        <a class="tag customLink" :href="`/tags/${tag}`" v-for="tag in frontmatter.tags.split(', ')">#{{ tag }}</a>
+      </article>
     </template>
   </Layout>
 </template>
@@ -25,5 +30,9 @@ const { frontmatter } = useData();
   top: -5vh;
   position: relative;
   margin: 0;
+}
+
+.tag {
+  margin: 0 1em;
 }
 </style>

@@ -5,6 +5,7 @@ date: 04/09/2023
 layout: doc
 image: /assets/../images/ansible_background.webp
 description: Aujourd'hui, je vais vous parler d'Ansible, un outil d'automatisation codé en Python, conçu et maintenu par Red Hat.
+tags: Tech
 ---
 
 # Ansible - Partie 1

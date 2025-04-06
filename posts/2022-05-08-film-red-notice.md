@@ -5,6 +5,7 @@ date: 08/05/2022
 layout: doc
 image: https://thewebtribune.com/wp-content/uploads/2021/11/red-notice-actors-dwayne-johnson-gal-gadot-ryan-reynolds-expected-salary-for-their-work-will-blow-your-mind-001-1068x561.jpg
 description: "Durant l'Antiquité, la reine Cléopâtre et le général romain Marc-Antoine s'aimaient. Pour lui témoigner de son amour, Marc-Antoine offrit à Cléopâtre trois œufs incrustés de pierres précieuses et recouverts de feuilles d'or. Sur ces trois œufs, seuls deux ont été retrouvés et exposés dans des musées, le dernier restant introuvable"
+tags: Cinéma, Culture
 ---
 
 # Red notice - le film de cambriolage signé Netflix

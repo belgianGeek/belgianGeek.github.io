@@ -5,6 +5,7 @@ date: 02/02/2021
 layout: doc
 image: https://images.unsplash.com/photo-1560419015-7c427e8ae5ba?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80
 description: Par moments, la vie peut nous sembler nulle et l'on voudrait du changement. Certains peuvent alors penser qu'il serait sympa de pouvoir vivre dans un jeu vidéo. Mais est-ce vraiment la panacée ?
+tags: Jeux vidéos
 ---
 
 # Vivre dans un jeu vidéo, rêve ou cauchemar ?

@@ -1,7 +1,19 @@
 <script setup>
-import { useData } from 'vitepress';
+import { useData, } from 'vitepress';
 const { site } = useData();
 import postDate from "./postDate.vue";
+
+let selectedTag = '';
+
+window.addEventListener('hashchange', () => {
+  if (window.location.hash !== '') {
+    selectedTag = window.location.hash.match(/[^#]{1,}/)[0].split('-').join(' ');
+  }
+});
+
+if (window.location.hash !== '') {
+  selectedTag = window.location.hash.match(/[^#]{1,}/)[0].split('-').join(' ');
+}
 </script>
 
 <template>
@@ -15,9 +27,36 @@ import postDate from "./postDate.vue";
 
     <p>Bonne lecture !</p>
   </article>
-
+  <article class="tags">
+    <h2 class="strong title">Tags</h2>
+    <span class="tagContainer" v-for="tag in site.themeConfig.sidebar[1].items">
+      <a class="customLink" :href="tag.link">{{ tag.text }}</a>
+    </span>
+  </article>
   <div class="blogHome">
-    <article class="blogItem" :id="post.text.replace(' ', '-')" v-for="post in site.themeConfig.sidebar[0].items">
+    <article class="blogItem" :id="post.text.replace(' ', '-')"
+      v-for="post in site.themeConfig.sidebar[0].items.filter(post => post.tags.join(',').normalize('NFD').replace(/\p{Diacritic}/gu, '').split(',').includes(selectedTag))"
+      v-if="selectedTag !== ''">
+      <strong>
+        <img :src="post.img" :alt="'Illustration de ' + post.text" />
+        <div class="blogItem__Container">
+          <header>
+            <h2 class="strong">
+              <a :href="post.link" class="customLink blogItem__Link">
+                {{ post.text }}
+              </a>
+            </h2>
+            {{ post.date }}
+            <postDate :creationDate="post.createdDateTime" />
+          </header>
+          <p v-if="post.description[post.description.length - 1].match(/[.:;,?.!]/)" class="desc">{{ post.description }}
+          </p>
+          <p v-else class="desc">{{ post.description }}...</p>
+        </div>
+      </strong>
+    </article>
+    <article class="blogItem" :id="post.text.replace(' ', '-')" v-for="post in site.themeConfig.sidebar[0].items"
+      v-else>
       <strong>
         <img :src="post.img" :alt="'Illustration de ' + post.text" />
         <div class="blogItem__Container">
@@ -103,6 +142,12 @@ import postDate from "./postDate.vue";
     object-fit: cover;
     filter: blur(2px) brightness(0.5);
     background-color: black;
+  }
+}
+
+.tag {
+  &Container {
+    margin: 1em;
   }
 }
 </style>

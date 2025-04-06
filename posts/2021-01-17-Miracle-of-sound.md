@@ -5,6 +5,7 @@ date: 17/01/2021
 layout: doc
 image: https://strangera.files.wordpress.com/2012/04/miracle-of-sound.jpg
 description: Miracle of Sound est un artiste irlandais dont les créations s'inspirent directement de la pop culture (jeux vidéos, films et séries). Son répertoire, aux sonorités rock, pop voire heavy metal fait partie de ma liste de lecture depuis environ 1 an. J'ai donc décidé de vous faire découvrir ce musicien dans cet article.
+tags: Culture, Musique
 ---
 
 # Miracle of Sound, l'artiste inspiré par la pop culture

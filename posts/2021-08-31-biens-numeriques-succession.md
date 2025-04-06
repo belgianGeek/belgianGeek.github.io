@@ -5,6 +5,7 @@ date: 31/08/2021
 layout: doc
 image: 'https://images.unsplash.com/photo-1528569937393-ee892b976859?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80'
 description: En fonction de votre âge et de vos préoccupations, vous avez peut-être déjà réfléchi à votre succession. Vous êtes vous déjà demandé ce qu'il adviendrait de vos bibliothèques Kindle, Apple Music ou Steam à votre décès ? Non ? Vous trouverez quelques pistes de réflexion dans cet article !
+tags: Tech
 ---
 
 # Quand "biens numériques" ne riment pas avec succession

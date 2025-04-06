@@ -6,6 +6,7 @@ layout: doc
 image: https://t3n9sm.c2.acecdn.net/wp-content/uploads/2021/05/Shadow-and-Bone.jpg
 description: Si vous êtes un adepte de Netflix, vous connaissez sûrement Shadow and Bone. Si ce nom ne vous dit rien, vous l'ajouterez certainement à votre liste de séries à voir d'ici la fin de cet article garanti sans spoilers.
 updateDate: 26/05/2021
+tags: Cinéma, Culture
 ---
 
 # Shadow and Bone : encore une excellente production signée Netflix

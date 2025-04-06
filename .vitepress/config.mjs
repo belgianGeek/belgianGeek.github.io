@@ -4,10 +4,25 @@ import { readdirSync } from "node:fs";
 import matter from "gray-matter";
 
 const posts = readdirSync(join(__dirname, "../posts"));
+let postTags = [];
+let sidebarTags = [];
 
 let postCollection = [];
 for (const post of posts) {
-  const postMetadata = matter.read(join(__dirname, `../posts/${post}`));
+  const postMetadata = matter.read(join(__dirname, `../posts/${post}`));  
+  
+  // Add each post tag to the postTags array only if it's not already included
+  for (let tag of postMetadata.data.tags.split(', ')) {
+    tag = tag.normalize('NFD').replace(/\p{Diacritic}/gu, '').split(' ').join('-');
+    if (!postTags.map(t => t.toLowerCase()).includes(tag.toLowerCase())) {
+      // Remove diacritics symbols from tags as they will be used in URLs
+      postTags.push(tag);
+      sidebarTags.push({
+        text: tag.split('-').join(' '),
+        link: `/blog/#${tag}`
+      });
+    }
+  }
 
   postCollection.push({
     createdDateTime: postMetadata.data.date,
@@ -18,6 +33,7 @@ for (const post of posts) {
     img: postMetadata.data.image,
     link: `/posts/${post.match(/(\d{1,}-){1,}(\w{1,}-){1,}(\w{1,})/g)}`,
     text: postMetadata.data.title,
+    tags: postMetadata.data.tags.split(', '),
     updatedDateTime: postMetadata.data.updateDate,
   });
 }
@@ -102,6 +118,10 @@ export default defineConfig({
       {
         text: "Posts",
         items: postCollection.reverse(),
+      },
+      {
+        text: "Tags",
+        items: sidebarTags,
       },
     ],
     socialLinks: [

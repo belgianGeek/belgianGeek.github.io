@@ -5,6 +5,7 @@ date: 01/11/2021
 layout: doc
 image: "https://pursuenews.com/wp-content/uploads/2018/10/Inside-Man-poster.jpg"
 description: "Si vous pensez qu'un braqueur de banque est toujours méchant, \"The inside man\" vous prouvera le contraire !"
+tags: Cinéma, Culture
 ---
 
 # The inside man, récit d'un cambriolage pas comme les autres

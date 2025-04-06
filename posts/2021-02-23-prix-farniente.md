@@ -5,6 +5,7 @@ date: 23/02/2021
 layout: doc
 image: https://images.unsplash.com/photo-1488868935619-4483ed595b69?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80
 description: Le public ado a toujours été difficile à conquérir pour les bibliothécaires. Difficile, mais pas impossible. Pour relever ce défi, la Fédération Wallonie-Bruxelles a créé un prix littéraire qui leur est spécialement dédié, sobrement intitulé Prix Farniente.
+tags: Culture, Littérature, Littérature jeunesse, Prix Farniente
 ---
 
 # Le Prix Farniente, le prix littéraire pour ados

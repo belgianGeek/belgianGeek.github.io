@@ -5,6 +5,7 @@ date: 25/01/2022
 layout: doc
 image: 'https://www.omegascopio.com.br/wp-content/uploads/2020/08/ready-player-two-o-megascopio.jpg'
 description: Que vaut le second volet des aventures de Wade Watts ? Si vous cherchez un avis, c'est par ici !
+tags: Culture, Littérature, Jeux vidéos
 ---
 
 # Ready Player Two, entre morale et stéréotypes

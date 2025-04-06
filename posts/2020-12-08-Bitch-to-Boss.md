@@ -5,6 +5,7 @@ date: 08/12/2020
 layout: doc
 image: ../images/pic08.jpg
 description: Il y a quelques semaines, lors de l'une de mes expéditions sur le web, j'ai découvert une nouvelle extension pour Firefox, j'ai nommé B!tch to Boss. À quoi sert-elle me direz-vous ? Elle permet de rendre le web plus respectueux (oui, ça existe encore 😇) en remplaçant chaque insulte potentielle envers les femmes avec le mot Boss (traduction anglaise de patron ou caïd pour ceux qui ne maîtrisent pas la langue 😉).
+tags: Tech
 ---
 
 # Bitch to Boss, l'extension Firefox qui vous veut du bien

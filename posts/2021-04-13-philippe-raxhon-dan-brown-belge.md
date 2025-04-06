@@ -6,6 +6,7 @@ layout: doc
 image: https://images.unsplash.com/photo-1505664194779-8beaceb93744?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80
 description: Il y a quelques semaines, j'ai déniché en librairie un roman de Philippe Raxhon. Ce professeur d'histoire à l'Université de Liège s'est mis à écrire en 2018 avec la parution de son premier roman, La Source S. Je m'en vais vous le faire découvrir dans cet article !
 updateDate: 06/05/2021
+tags: Culture, Littérature
 ---
 
 # Philippe Raxhon, le Dan Brown belge

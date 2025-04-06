@@ -5,6 +5,7 @@ date: 05/08/2022
 layout: doc
 image: https://m.media-amazon.com/../images/M/MV5BMDU2ZmM2OTYtNzIxYy00NjM5LTliNGQtN2JmOWQzYTBmZWUzXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg
 description: Dans Bullet train, nous accompagnons un tueur à gages surnommé Coccinelle (Brad Pitt) dans son trajet dans un train à grande vitesse japonais, le Bullet train, voyageant entre Tokyo et Kyoto. Son but ? Récupérer une malette appartenant à un baron du crime et la livrer à son employeur. Tout semble facile, jusqu'à ce qu'il se rende compte qu'il est loin d'être le seul à avoir le même objectif...
+tags: Cinéma, Culture
 ---
 
 # Bullet train, un blockbuster pas comme les autres

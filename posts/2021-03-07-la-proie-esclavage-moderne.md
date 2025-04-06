@@ -5,6 +5,7 @@ date: 07/03/2021
 layout: doc
 image: https://images.unsplash.com/photo-1425326452142-67c31f601d2f?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1491&q=80
 description: Récemment, j'ai décidé de me lancer dans la lecture de lauréats du Prix Farniente. Mon dernier choix en date s'est porté sur "La Proie", un roman pour ados écrit par le français Philippe Arnaud.
+tags: Culture, Littérature, Littérature jeunesse, Prix Farniente
 ---
 
 # La Proie, l'esclavage moderne vulgarisé
